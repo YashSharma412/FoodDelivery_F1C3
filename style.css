@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800&display=swap');
+
+*{
+    /* background-color: #faf8ed; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Bootsrap classes overwrite ------------------------------*/
+
+
+
+/* navbar */
+
+nav{
+    white-space: nowrap;
+    position: sticky;
+    top;
+    background-color: #faf8ed;
+    z-index: 10;
+}
+
+/* Logo ---------------------------------------------------*/
+
+.my-dlogo{  
+    order: 1;
+    font-size: 28px;
+    border-radius: 0.50rem;
+    font-weight: 700;
+}
+
+.my-dlogo>h1{  
+    font-size: 28px;
+    border-radius: 0.50rem;
+    font-weight: 700;
+}
+
+/* LINKS-NAVBAR ----------------------------------*/
+
+nav>ul{
+    order: 2;
+    margin-bottom: 0;
+}
+
+nav>ul>li{
+    text-decoration: none;
+    display: block;
+    margin: 5px 13px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: #212244;
+}
+
+/* SEARCH-NAVBAR ----------------------------------*/
+
+nav input{
+    width: 11vw;
+    border: none;
+}
+
+nav input::placeholder{
+    text-align: right;
+    color: #69697b;
+}
+
+.my-searchbox{
+    border: 2px solid #f0f0f2;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.vertical-line{
+    height: 2rem;
+    border-left: 2px solid #f0f0f2;
+}
+
+/* BAG-LOGO--------------------------------------- */
+/* 
+.my-bag-logo{
+    position: absolute;
+    z-index:1;
+}
+ */
+
+ /* SIGN IN BUTTON */
+
+ /* RIGHT SIDE OF NAVBAR */
+
+.my-nav-part3{
+    width: 30%;
+    order: 2;
+}
+
+/* Hero-Section ----------------------------------*/
+
+.my-hero-section{
+    background-color: #fef5f4;
+}
+.hero-text{
+    /* flex: 1; */
+    width: 34%;
+    /* border: 1px solid red;  */
+}
+.hero-text>h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.hero-image{
+    /* flex: 1; */
+    /* border: 1px solid red; */
+}
+
+.hero-part1{
+    width: fit-content !important;
+    background-color: #fdecec;
+}
+
+.hero-part1>h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-section-btn{
+    width: 33%;
+}
+
+/* Best in town Section --------------------------- */
+
+.bit-sec-div{
+    width: 310px;
+    border-radius: 20px;
+    box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
+}
+
+.bit-sec-1{
+    width: 280px;
+    border-radius: 20px;
+}
+
+.bit-sec-1>h2{
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.bit-sec-1>p{
+    color: #69697B;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.bit-sec-div>h3{
+    color: #212244;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.bit-sec-div>img{
+    width: 145px;
+    height: 145px;
+    background-image: url(./resources/Ellipse\ 2525.png);
+    overflow: visible;
+}
+
+/* OUR SPECIAL RECIPES SECTION */
+
+.our-recipes>ul{
+    margin-bottom: 0px;
+}
+.our-recipes ul>li{
+    text-decoration: none;
+    display: block;
+    margin: 1px 13px;
+}
+
+.our-recipes ul>li>a{
+    text-decoration: none;
+    color: #212244;
+}
+
+.hr1{
+    border-top: 2px solid #f94a3d;
+    width: 100% !important;
+}
+
+/* -------Menu Tray-------- */
+
+.menu-tray{
+    width: 90%;
+
+    overflow-x: scroll !important;
+}
+.menu-tray::-webkit-scrollbar {
+    display: none;
+}
+.menu-item{
+    /* border: 1px solid red; */
+    width: 325px;
+    height: 366px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 20px 40px 20px 10px rgba(167, 26, 26, 0.08);
+}
+
+.menu-item>img{
+    object-fit: scale-down;
+}
+
+.menu-item>h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.menu-item>h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* ---------CUSTOMER FEEDBACK------- */
+.cust-feedback{
+    background-color:#f8f8f8;
+
+}
+.cust-list{
+    /* width: 40%; */
+    overflow-y: scroll;
+    /* border: 1px solid red; */
+}
+
+.customer{
+    /* border: 1px solid black; */
+    width: 80%;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-item-image{
+    grid-row: 1/-1;
+}
+
+.grid-item>h4{
+    margin-bottom: -4px;
+}
+
+.cust-article{
+    width: 50%;
+}
+
+cust-article>h1{
+    
+}
