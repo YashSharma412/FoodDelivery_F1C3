@@ -24,7 +24,7 @@ nav{
 /* Logo ---------------------------------------------------*/
 
 .my-dlogo{  
-    order: 1;
+    /* order: 1; */
     font-size: 28px;
     border-radius: 0.50rem;
     font-weight: 700;
@@ -39,7 +39,7 @@ nav{
 /* LINKS-NAVBAR ----------------------------------*/
 
 nav>ul{
-    order: 2;
+    /* order: 2; */
     margin-bottom: 0;
 }
 
@@ -91,7 +91,7 @@ nav input::placeholder{
 
 .my-nav-part3{
     width: 30%;
-    order: 2;
+    /* order: 2; */
 }
 
 /* Hero-Section ----------------------------------*/
@@ -256,6 +256,78 @@ nav input::placeholder{
     width: 50%;
 }
 
-cust-article>h1{
-    
+.cust-article>h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.96px;
 }
+.cust-article>p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.details{
+    border-left: 2px solid #f94a3d ;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.details>h5{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+/* App Link Section */
+
+.app-link-section{
+    border-radius: 40px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #f94a3d;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 80vw;
+}
+.app-link-section div>img{
+    width: 100%;
+}
+.app-link-article{
+    width: 40%;
+}
+.app-link-article>h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 47px; /* 123.684% */
+    letter-spacing: 0.76px;
+}
+
+.app-link-article>h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.Link_imgs>a>img{
+    margin: 2px 10px;
+}
+
+/*  */
+footer{
+    background-color: #fef6f5;
+}
+/* 
+.social-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-inline: 10px;
+}
+*/
