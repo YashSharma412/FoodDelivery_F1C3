@@ -146,7 +146,7 @@
       class="my-hero-section d-flex flex-wrap align-items-center justify-content-between vw-100 pb-3 mb-5"
     >
       <!-- HERO SECTION TEXT PART -->
-      <div class="hero-text d-flex flex-column ms-5 p-4">
+      <div class="hero-text d-flex flex-column ms-3 p-4">
         <div
           class="hero-part1 d-flex align-items-center justify-content-start rounded-pill"
         >
@@ -239,7 +239,7 @@
           Get your cuisine delivered right to
           <span class="text-danger">your door</span>
         </h1>
-        <p>
+        <p class="my-3">
           Food that is delivered at the right time. The trendy food delivery
           partner. Good food is what we deliver. Your hunger companion.
         </p>
@@ -260,10 +260,10 @@
     <!--    BEST IN TOWN SECTION----------------------------------------------------------------------- -->
 
     <section
-      class="best-in-town-section d-flex flex-wrap align-items-center justify-content-around py-3 px-5 vw-100"
+      class="best-in-town-section d-flex flex-wrap align-items-center justify-content-center py-3 px-1"
     >
       <!-- card-1 -->
-      <div class="bit-sec-1">
+      <div class="bit-sec-1 col-lg-3 col-md-4.5">
         <h2>Why we are Best in our Town</h2>
         <p>
           whole grains and low-fat dairy can help to reduce your risk of heart
@@ -272,14 +272,14 @@
       </div>
       <!-- card-2 -->
       <div
-        class="bit-sec-div d-flex flex-column align-items-center justify-content-around p-3 m-2"
+        class="bit-sec-div d-flex flex-column align-items-center justify-content-around p-3 m-2 col-md-4.5 col-lg-2.5"
       >
         <img class="m-3" src="./resources/Frame (1).png" alt="card-img" />
         <h3 class="ms-4">Choose <br />your favorite food</h3>
       </div>
       <!-- card-3 -->
       <div
-        class="bit-sec-div d-flex flex-column align-items-center justify-content-around p-3 m-2"
+        class="bit-sec-div d-flex flex-column align-items-center justify-content-around p-3 m-2 col-md-4.5 col-lg-2.5"
       >
         <img
           class="m-3"
@@ -290,11 +290,16 @@
       </div>
       <!-- card-4 -->
       <div
-        class="bit-sec-div d-flex flex-column align-items-center justify-content-around p-3 m-2"
+        class="bit-sec-div d-flex flex-column align-items-center justify-content-around p-3 m-1 col-md-4.5 col-lg-2.5"
       >
-        <img class="m-3" src="./resources/Frame (2).png" alt="card-img" />
-        <h3 class="ms-4">We have <br />400+ Review On our app</h3>
+        <img
+          class="m-3"
+          src="./resources/Frame (2).png"
+          alt="card-img"
+        />
+        <h3 class="ms-4">Get delivery <br />at your door step</h3>
       </div>
+      
     </section>
 
     <!-- ---------------------- OUR SPECIAL RECIPES SECTION------------------------ -->
@@ -440,10 +445,10 @@
 
     <!-- -------------------CUSTOMER FEEDBACK--------------------------- -->
     <section
-      class="cust-feedback my-5 d-flex justify-content-between align-items-center p-5 vw-100"
+      class="cust-feedback my-5 d-flex justify-content-between align-items-center p-5"
     >
       <div
-        class="cust-list p-3 m-2 d-flex flex-column align-items-center justify-content-center col-5"
+        class="cust-list p-3 m-2 d-flex flex-column align-items-center justify-content-center col-lg-5 col-md-11"
       >
         <div class="customer bg-white px-1">
           <div class="grid-item-image m-2 ms-3">
@@ -492,10 +497,11 @@
           <div class="grid-item pt-4"><h4>Kathryn Murphy</h4></div>
           <div class="grid-item p-1">Marketing Co-ordinator</div>
         </div>
+        
       </div>
 
       <div
-        class="cust-article d-flex flex-column justify-content-center m-2 p-3 px-5 col-7"
+        class="cust-article d-flex flex-column justify-content-center m-2 p-3 px-5 col-lg-7 col-md-12"
       >
         <h1 class="mb-3">
           What our Customers <br /><span class="text-danger">are saying</span>
@@ -521,7 +527,7 @@
     <section
       class="app-link-section d-flex align-items-center justify-content-center p-2"
     >
-      <div class="w-50 d-flex justify-content-end align-items-center">
+      <div class="col-lg-5 col-md-11 d-flex justify-content-end align-items-center">
         <img
           src="./resources/Group 1000002779.png"
           alt="MobileCircles"
@@ -530,7 +536,7 @@
       </div>
 
       <div
-        class="text-white app-link-article d-flex flex-column align-items-center justify-content-start p-2"
+        class="col-lg-6 col-md-11 text-white app-link-article d-flex flex-column align-items-center justify-content-start p-2 "
       >
         <h1 class="my-4">
           Never Feel Hungry! Download Our Mobile App Order Delicious Food
@@ -556,26 +562,84 @@
       </div>
     </section>
     <!-- FOOTER -->
-    <footer class="d-flex align-items-center justify-content-around py-5 px-3">
+    <footer class="d-flex align-items-center justify-content-around vw-100 py-5 px-3 ps-5">
+
       <div
-        class="footer-part1 d-flex flex-column align-items-center justify-content-around"
+        class="footer-part1 d-flex flex-column align-items-start justify-content-around col-lg-3 col-md-11 px-2"
       >
         <!-- LOGO -->
         <div class="my-dlogo p-1">
           <h1 class="text-light bg-danger d-inline-block px-2 mx-1 my-2">D</h1>
           <h1 class="text-danger d-inline-block">Fdelivery</h1>
         </div>
-        <p>
+        <p class="ps-2">
           Retail food delivery is a courier service in which a restaurant,
           store, or independent food-delivery
         </p>
-        <div class="socials">
-          <div class="p-2">
-            <i class="fa-brands fa-facebook fa-xl"></i>
+        <div class="socials d-flex">
+          <div class="social-btn">
+            <i class="fa-brands fa-facebook-f fa-sm"></i>
           </div>
-          
+          <div class="social-btn">
+            <i class="fa-brands fa-twitter fa-sm"></i>
+          </div>
+          <div class="social-btn">
+            <i class="fa-brands fa-linkedin-in fa-sm"></i>
+          </div>
         </div>
       </div>
+
+      <div class="footer-part2 col-lg-4 col-md-11 ps-5">
+        <table class="w-100">
+          <tr>
+            <th>Company</th>
+            <th>Services</th>
+          </tr>
+          <tr>
+            <td>About Us</td>
+            <td>Order tracking</td>
+          </tr>
+          <tr>
+            <td>Blog</td>
+            <td>Wish List</td>
+          </tr>
+          <tr>
+            <td>All Products</td>
+            <td>My Accounts</td>
+          </tr>
+          <tr>
+            <td>Location Maps</td>
+            <td>Terms & Condition</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="footer-part3 col-lg-4 col-md-11 ps-5">
+        <table class="w-100">
+          <tr>
+            <th>Support</th>
+            <th>Contact</th>
+          </tr>
+          <tr>
+            <td>FAQ</td>
+            <td>WhatsApp</td>
+          </tr>
+          <tr>
+            <td>Policy</td>
+            <td>Support 24</td>
+          </tr>
+          <tr>
+            <td>Buisness</td>
+            <td>Quisck Chat</td>
+          </tr>
+          <tr>
+            <td>Support Carrer</td>
+          </tr>
+        </table>
+      </div>
+
+
+
     </footer>
   </body>
 </html>

@@ -16,7 +16,7 @@
 nav{
     white-space: nowrap;
     position: sticky;
-    top;
+    top: 0px;
     background-color: #faf8ed;
     z-index: 10;
 }
@@ -109,9 +109,9 @@ nav input::placeholder{
     font-weight: 600;
     line-height: 70px;
 }
+
 .hero-image{
-    /* flex: 1; */
-    /* border: 1px solid red; */
+    width: 50%;
 }
 
 .hero-part1{
@@ -129,15 +129,19 @@ nav input::placeholder{
 }
 
 /* Best in town Section --------------------------- */
+.best-in-town-section{
+    width:98vw;
+    margin:auto;
+}
 
 .bit-sec-div{
-    width: 310px;
+    /* width: 310px; */
     border-radius: 20px;
     box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
 }
 
 .bit-sec-1{
-    width: 280px;
+    /* width: 280px; */
     border-radius: 20px;
 }
 
@@ -162,8 +166,8 @@ nav input::placeholder{
 }
 
 .bit-sec-div>img{
-    width: 145px;
-    height: 145px;
+    width: 140px;
+    height: 140px;
     background-image: url(./resources/Ellipse\ 2525.png);
     overflow: visible;
 }
@@ -227,7 +231,7 @@ nav input::placeholder{
 /* ---------CUSTOMER FEEDBACK------- */
 .cust-feedback{
     background-color:#f8f8f8;
-
+    width: 98vw;
 }
 .cust-list{
     /* width: 40%; */
@@ -242,6 +246,9 @@ nav input::placeholder{
     display: grid;
     grid-template-columns: 4fr 8fr;
     grid-template-rows: 1fr 1fr;
+}
+customer:hover{
+    background-color: #f7bbb7f0;
 }
 
 .grid-item-image{
@@ -288,14 +295,14 @@ nav input::placeholder{
     background-color: #f94a3d;
     margin-top: 80px;
     margin-bottom: 80px;
-    width: 80vw;
+    width: 88vw;
 }
 .app-link-section div>img{
     width: 100%;
 }
-.app-link-article{
+/* .app-link-article{
     width: 40%;
-}
+} */
 .app-link-article>h1{
     font-size: 38px;
     font-weight: 600;
@@ -313,15 +320,11 @@ nav input::placeholder{
     margin: 2px 10px;
 }
 
-/*  */
-footer{
-    background-color: #fef6f5;
-}
-/* 
+/* footer */
 .social-btn{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 5%;
     background-color: black;
     color: white;
     display: flex;
@@ -330,4 +333,31 @@ footer{
     font-size: 30px;
     margin-inline: 10px;
 }
-*/
+
+footer{
+    background-color: #fef6f5;
+
+}
+/*  
+.footer-part1{
+    flex: 1;
+    align-items: start;
+} */
+/* 
+.footer-part2{
+
+}
+.footer-part3{
+
+} */
+@media screen and (max-width: 1020px){
+    nav,.my-hero-section,.cust-feedback{
+        flex-direction: column !important;
+    }
+    .hero-text,.my-nav-part3,nav input,.cust-list{
+        width: 92%;
+    }
+    .hero-image{
+        display: none !important;
+    }
+}
